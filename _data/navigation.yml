@@ -1,0 +1,12 @@
+# Sample site navigation links
+
+- title: Home
+  url: /index
+- title: Writing
+  url: /posts/
+- title: CV
+  url: /CV/
+# - title: Recipes
+#   url: /recipes/
+- title: Search
+  url: /search
