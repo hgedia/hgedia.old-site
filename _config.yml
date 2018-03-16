@@ -16,11 +16,12 @@
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-GB
-title: "Haresh G"
-description: "Hello World!"
+name : "Haresh Gedia"
+title: ""
+description: ""
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "hgedia.co"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "assets/images/picadilly.jpg"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -87,8 +88,8 @@ defaults:
       
 # Site Author
 author:
-  name: Haresh G
-  picture:
+  name: hgedia
+  picture: "/assets/images/hgedia.jpg"
   email:
   twitter: h_gedia
   links:
@@ -109,4 +110,3 @@ footer_links:
 
 #Haresh
 include: ["_pages"]
-    
