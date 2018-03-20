@@ -1,11 +1,19 @@
 ---
-title: "Call vs Callcode vs Delegatecall"
+title: "Solidity tidbits"
 categories:
   - Ethereum
 tags:
   - opcodes
   - contract
 ---
+
+The following post contains tidbits I found interesting and good to be aware of while working with solidity.
+
+
+{% include toc %}
+{:toc}
+
+# Callcode vs Delegate call
 
 Call , Callcode and Delegate call differ in terms of what storage and msg.sender is used in the contract.
 
@@ -64,7 +72,6 @@ E : 0x333333333333
 Account sending tx : 0x444444444444
 ```
 
-
 <h3> Call</h3>
 ```
 d.callSetN('0x333333333333',20);
@@ -112,5 +119,20 @@ To summarize :
   <li>delegate call preseves the sender and executes in the calling contracts context</li>
 </ul>
 
+<br><br>
+# Require vs assert
 
-References: <a href="https://ethereum.stackexchange.com/questions/3667/difference-between-call-callcode-and-delegatecallurl">SO</a>
+<ul>
+<li>assert(false) compiles to 0xfe, which is an invalid opcode, using up all remaining gas, and reverting all changes.</li>
+<li>require(false) compiles to 0xfd which is the REVERT opcode, meaning it will refund the remaining gas. </li>
+</ul>
+
+
+<br><br>
+<hr>
+# References
+References: 
+<ul>
+<li><a href="https://ethereum.stackexchange.com/questions/3667/difference-between-call-callcode-and-delegatecallurl">Callcode vs delegate call</a></li>
+<li><a href="https://ethereum.stackexchange.com/questions/15166/difference-between-require-and-assert-and-the-difference-between-revert-and-thro">Require vs assert</a></li>
+</ul>

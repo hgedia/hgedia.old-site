@@ -87,15 +87,15 @@ defaults:
       share: true
       
 # Site Author
-author:
-  name: hgedia
-  picture: "/assets/images/hgedia.jpg"
-  email:
-  twitter: h_gedia
-  links:
-    - title:
-      url:
-      icon:
+#author:
+#  name: hgedia
+#  picture: "/assets/images/hgedia.jpg"
+#  email:
+#  twitter: h_gedia
+#  links:
+ #   - title:
+#      url:
+#      icon:
 
 # Footer Links
 # Footer Links
