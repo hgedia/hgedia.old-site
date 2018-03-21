@@ -5,8 +5,8 @@ categories:
 tags:
   - opcodes
   - contract
+layout: post_custom  
 ---
-
 The following post contains tidbits I found interesting and good to be aware of while working with solidity.
 
 
@@ -53,6 +53,7 @@ contract E {
 }
 
 contract C {
+    uint public n;
     function foo(D _d, E _e, uint _n) {
         _d.delegatecallSetN(_e, _n);
     }
