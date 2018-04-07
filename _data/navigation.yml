@@ -2,11 +2,9 @@
   url: /index
 - title: Posts
   url: /posts/
-- title: CV
-  url: /CV/
 - title: Resources
   url : /resources/  
-- title: Contact
-  url : /contact/   
+- title: About
+  url : /about/   
 - title: Search
   url: /search
