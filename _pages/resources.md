@@ -18,6 +18,14 @@ sitemap: false
 [Lessons](https://medium.com/@chriseth/lessons-learnt-from-the-underhanded-solidity-contest-8388960e09b1)
 ,
 [Repo](https://github.com/Arachnid/uscc/tree/master/submissions-2017/)
+* [Capture Ether](https://capturetheether.com/) : Honey pot game to breaking smart contract security.
+
+<br>
+<br>
+### L2 Scaling
+---
+
+* [Hash locked contracts](https://en.bitcoin.it/wiki/Hashlock) , [Hashed time lock contracts](https://en.bitcoin.it/wiki/Hashed_Timelock_Contracts)
 
 <br>
 <br>
@@ -25,3 +33,4 @@ sitemap: false
 ---
 * [Ethereum yellow paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 * [Cosmos](https://cosmos.network/whitepaper)
+* [Blockchains and Data Protection in the European Union - Michèle Finck](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3080322)
