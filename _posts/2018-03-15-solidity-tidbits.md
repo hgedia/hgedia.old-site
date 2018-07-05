@@ -127,7 +127,13 @@ To summarize :
 <li>assert(false) compiles to 0xfe, which is an invalid opcode, using up all remaining gas, and reverting all changes.</li>
 <li>require(false) compiles to 0xfd which is the REVERT opcode, meaning it will refund the remaining gas. </li>
 </ul>
+<br><br>
 
+# Signatures
+<ul>
+ <li>Ethereum transaction signature includes the following fields  to, value, gas, gasPrice, nonce and data. Signature consists of <a href="https://bitcoin.stackexchange.com/questions/38351/ecdsa-v-r-s-what-is-v">v , r , s</a>. Also see<a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md"> EIP 155 </a>.</li> 
+ 
+</ul>
 
 <br><br>
 <hr>
